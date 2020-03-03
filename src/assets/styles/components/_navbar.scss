@@ -4,6 +4,7 @@
   background: transparentize($color: $black, $amount: 0.6);
   color: $white;
   z-index: 2;
+  scroll-behavior: smooth;
   .collapse {
     z-index: 10;
     position: fixed !important;
@@ -49,15 +50,16 @@
       font-size: 1.5rem;
       color: $primary;
     }
+    
   }
   .float-right {
     .call {
-      padding-left: 90px;
-      margin-left: 20px;
+      padding-left: 20px;
+      margin-left: 0px;
     }
     
     .nav-link {
-      display: inline;
+      display: inline-block;
       padding-left: 10px;
       text-decoration: none;
       color: $white;
@@ -111,6 +113,11 @@
     font-family: 'Pacifico', cursive;
     font-size: 2rem;
     color: $primary;
+    .img {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+    }
   }
   .body {
     ul {
@@ -119,16 +126,28 @@
       list-style-type: none;
       text-transform: uppercase;
       cursor: pointer;
+      display: inline;
+      .name {
+        display: none;
+      }
     }
   }
-  .book-button {
-    margin-left: 20px;
-    background-color: $primary;
-    color: $white;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    margin-top: 10px;
+  .float-right {
+    .call {
+      padding-left: 0px;
+      margin-left: 0px;
+    }
+    
+    .nav-link {
+      padding-left: 10px;
+      text-decoration: none;
+      color: $white;
+      text-transform: capitalize;
+    }
+    .nav-link:hover {
+      color: $primary;
+      text-transform: uppercase;
+    }
   }
 }
 
