@@ -28,12 +28,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="float-right col-md-9 container-fluid">
-        <nav>
-          <a className="nav-link" href="#">About</a>
-          <a className="nav-link" href="#">Sermons</a>
-          <a className="nav-link" href="#">Events</a>
+        <nav className="nav">
+          <a className="nav-link" href="#about">About</a>
+          <a className="nav-link" href="#sermon">Sermons</a>
+          <a className="nav-link" href="#event">Events</a>
           <a className="nav-link" href="#location">Locations</a>
-          <a className="nav-link" href="#">Contact</a>
+          <a className="nav-link" href="#contact">Contact</a>
         </nav>
         <span className="call ">Help Center:  0803 451 8124; 0805 851 9150</span>
       </div>

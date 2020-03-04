@@ -136,17 +136,21 @@
     .call {
       padding-left: 0px;
       margin-left: 0px;
+      font-size: small;
     }
-    
-    .nav-link {
-      padding-left: 10px;
-      text-decoration: none;
-      color: $white;
-      text-transform: capitalize;
-    }
-    .nav-link:hover {
-      color: $primary;
-      text-transform: uppercase;
+    .nav{
+      justify-content: center;
+      .nav-link {
+        padding-left: 5px;
+        text-decoration: none;
+        color: $white;
+        text-transform: capitalize;
+        
+      }
+      .nav-link:hover {
+        color: $primary;
+        text-transform: uppercase;
+      }
     }
   }
 }

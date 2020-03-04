@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Location from "../screens/Location";
+import About from "./About";
 
 const Home = () => (
   <div className="home">
@@ -19,6 +20,7 @@ const Home = () => (
       </div>
     </div>
 
+    <About />
     <Location />
   </div>
 );
