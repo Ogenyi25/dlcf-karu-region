@@ -30,12 +30,19 @@ const Navbar = () => {
       <div className="float-right col-md-9 container-fluid">
         <nav className="nav">
           <a className="nav-link" href="#about">About</a>
-          <a className="nav-link" href="#sermon">Sermons</a>
+          <a className="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Sermons</a>
+          <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a className="dropdown-item" href="#">Sundays</a>
+            <a className="dropdown-item" href="#">Thursdays</a>
+            <a className="dropdown-item" href="#">Retreat</a>
+          </div>
           <a className="nav-link" href="#event">Events</a>
           <a className="nav-link" href="#location">Locations</a>
           <a className="nav-link" href="#contact">Contact</a>
         </nav>
         <span className="call ">Help Center:  0803 451 8124; 0805 851 9150</span>
+
+
       </div>
     </div>
   );

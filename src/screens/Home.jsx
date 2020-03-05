@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Location from "../screens/Location";
 import About from "./About";
+import Event from "../screens/Event";
 
 const Home = () => (
   <div className="home">
@@ -19,8 +20,8 @@ const Home = () => (
         <button className="search-submit">SEARCH</button>
       </div>
     </div>
-
     <About />
+    <Event />
     <Location />
   </div>
 );

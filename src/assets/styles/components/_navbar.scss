@@ -144,13 +144,17 @@
         padding-left: 5px;
         text-decoration: none;
         color: $white;
-        text-transform: capitalize;
-        
+        text-transform: capitalize;       
+      }
+      .dropdown-menu {
+        background-color: $black;
+        color: $white;
       }
       .nav-link:hover {
         color: $primary;
         text-transform: uppercase;
       }
+      
     }
   }
 }
