@@ -2,30 +2,35 @@ import React from 'react';
 
 const Event = () => {
     return (
-        <div className="events-page">
-            <div className="events container-fluid">
-                <div className="title">UPCOMING EVENTS</div>
+        <div className="events-page" id="event">
+            <div className="events container-fluid row">
+                <div className="title">UPCOMING EVENTS
+                </div>
 
-                    <div class="card1">
-                        <img src="http://www.pngmart.com/files/5/Pyramids-PNG-HD.png" alt="" />
+                    <div class="card1 col-md-3">
+                        
                         <h3>Corper's SendForth</h3>
-                        <p>The Egyptian pyramids are ancient pyramid-shaped masonry structures located in Egypt.
-                            As of November 2008, sources cite either 118 or 138 as the number of identified 
-                            Egyptian pyramids.</p>
+                        <p>A sendforth service for our outgoing corp member(s).<br />
+                            A moment of togetherness, feasting and exhortation.
+                            <h6 className="time"><i className="fa fa-clock-o fa-lg" aria-hidden="true"></i> 6PM. <span><i className="fa fa-calendar" aria-hidden="true"></i> 12th March</span></h6>
+                            
+                        </p>
                     </div>
 
-                    <div class="card2">
-                        <img src="https://wallazee.global.ssl.fastly.net/images/dynamic/items/383-1024.png" alt="Eiffel Tower" />
-                            <h3>Statue of Liberty</h3>
-                            <p>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States.</p>
+                    <div class="card2 col-md-3">
+                        
+                            <h3>National Easter Retreat</h3>
+                            <p>This is a period of partaking in the resulting blessings from christ manifestion at calvary. <br /></p>
+                            <h6 className="time"><span><i className="fa fa-calendar" aria-hidden="true"></i>12th - 15th April.</span></h6>
                     </div>
 
-                    <div class="card3">
-                            <img src="http://pluspng.com/img-png/download-taj-mahal-png-images-transparent-gallery-advertisement-1185.png" alt="" />
-                            <h3>Taj Mahal</h3>
-                            <p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor.</p>
-                    </div>
-                    <div class="footer">
+                    <div class="card3 col-md-3">
+                            
+                            <h3>National Easter Retreat</h3>
+                            <p>This is a period of partaking in the resulting blessings from christ manifestion at calvary. <br /></p>
+                            <h6 className="time"> <span><i className="fa fa-calendar" aria-hidden="true"></i> 12th - 15th April.</span></h6>
+                            </div>
+                    <div className="footer">
                     </div>
             </div>
         </div>

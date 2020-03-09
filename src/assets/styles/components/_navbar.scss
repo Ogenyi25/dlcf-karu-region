@@ -65,6 +65,10 @@
       color: $white;
       text-transform: capitalize;
     }
+    .dropdown-menu {
+      background: $primary;
+      color: $primary;
+    }
     .nav-link:hover {
       color: $primary;
       text-transform: uppercase;
@@ -147,8 +151,8 @@
         text-transform: capitalize;       
       }
       .dropdown-menu {
-        background-color: $black;
-        color: $white;
+        background: $primary;
+        color: $primary;
       }
       .nav-link:hover {
         color: $primary;
