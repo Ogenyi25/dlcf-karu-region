@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Location from "../screens/Location";
 import About from "./About";
 import Event from "../screens/Event";
+import Sermon from "../screens/Sermon";
 
 const Home = () => (
   <div className="home">
@@ -23,6 +24,7 @@ const Home = () => (
     <About />
     <Event />
     <Location />
+    <Sermon />
   </div>
 );
 

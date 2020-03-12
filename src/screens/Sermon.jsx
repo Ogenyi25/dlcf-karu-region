@@ -1,16 +1,28 @@
 import React from 'react';
-import Navbar from "../partials/Navbar";
-
-
-
-
+import Sunday from './Sunday';
+import Thursday from './Thursday';
+import Retreat from './Retreat';
 
 const Sermon = () => {
     return (
         <div>
-            <Navbar />
-            <div className="sermon-page">
-                WELCOME TO SERMON PAGE
+            <div className="sermon-page" id="sermon">
+                <div className="header">SERMONS</div>
+                <div className="caption">
+                    The word of God is <strong>Stronger</strong> and <strong>powerful</strong> 
+                    than any two edged sword.
+                </div>
+                <div className="services row container-fluid">
+                    <div className="sundays col-md-3 card">
+                        <Sunday />
+                    </div>
+                    <div className="thursdays col-md-3 card">
+                        <Thursday />
+                    </div>
+                    <div className="retreats col-md-3 card">
+                        <Retreat />
+                    </div>
+                </div>
             </div>
         </div>
     )
