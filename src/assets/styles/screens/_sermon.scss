@@ -9,14 +9,47 @@
     }
     .caption {
         font-size: 20px;
-        line-height: 15px;
+        line-height: 30px;
         margin-bottom: 30px;
     }
     .services {
         justify-content: center;
-        margin-top: 50px;
-        
-        
-        
+        margin-top: 50px;        
+        .sundays {
+            margin-left: 30px;
+            margin-right: 8px;
+            margin-bottom: 50px;
+            .card-img-top {
+                margin-top: 15px;
+            }
+            .title {
+                font-weight: 500;
+                margin-top: 10px;
+            }
+        }
+        .thursdays {
+            margin-left: 30px;
+            margin-right: 8px;
+            margin-bottom: 50px;
+            .card-img-top {
+                margin-top: 15px;
+            }
+            .title {
+                font-weight: 500;
+                margin-top: 10px;
+            }
+        }
+        .retreats {
+            margin-left: 30px;
+            margin-right: 8px;
+            margin-bottom: 50px;
+            .card-img-top {
+                margin-top: 15px;
+            }
+            .title {
+                font-weight: 500;
+                margin-top: 10px;
+            }
+        }
     }
 }

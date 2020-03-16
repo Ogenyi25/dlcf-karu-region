@@ -206,7 +206,7 @@
         margin-bottom: 300px;
         .events {
             .title {
-                text-align: center;
+                margin-left: 18px;
                 font-size: 30px;
                 font-weight: bold;
             }
@@ -216,24 +216,13 @@
             background-color: #dfe6e9;
             -webkit-transform: perspective(900px);
             -webkit-transform-style: preserve-3d;
-            }
-            .title{
-            width:100%;
-            text-align: center;
-            }
-            .title h1{
-            font-size:50px;
-            font-family: 'Exo', sans-serif;
-            }
+            } 
             .card1 {
-            justify-content: center;
             text-align:center;
-            margin-right: auto;
-            margin-left: auto;
-            display: block;
+            margin-left: 30px;
             width: 250px;
-            height: 350px;
-            margin-top: 10px;
+            max-height: 50vh;
+            margin-top: 5px;
             margin-bottom: 10px;
             background: linear-gradient(rgb(225,150,58),rgb(227,144,91));
             transition:.6s; 
@@ -282,10 +271,8 @@
             }
     
             .card2 {
-            text-align:center;
-            margin-right: auto;
-            margin-left: auto;
-            display: block;
+            max-height: 50vh;
+            color: white;
             width: 250px;
             height: 350px;
             margin-top: 10px;
@@ -339,14 +326,12 @@
         }
 
             .card3 {
-            text-align:center;
-            margin-right: auto;
-            margin-left: auto;
-            display: block;
+            max-height: 50vh;
+            color: white;
             width: 250px;
             height: 350px;
             margin-top: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 1px;
             background: linear-gradient(#ff5252, #b33939);
             transition:.6s;            
             transform: rotatex(75deg) translatey(-200px) translatez(-100px);
@@ -362,13 +347,7 @@
             width:200px;
             height:120px;
             }
-            .footer{
-            position: absolute;
-            top: 500px;
             
-            width: 100%;
-            text-align: center;
-            }
             .footer h2{
             font-size:18px;
             font-family: 'Exo', sans-serif;  
