@@ -28,11 +28,14 @@
             }
         }
         .collapse {
-            margin-left: 30px;
+            width: 100%;
+            margin-left: 50px;
+            margin-bottom: 10px;
             .card {
                 .card {
-                    width: 50rem;
+                    width: 18rem;
                     margin-bottom: 10px;
+                    height: 18rem;
                     .card-img-top {
                         width: 10rem;
                         border-radius: 100%;
@@ -70,6 +73,94 @@
             .title {
                 font-weight: 500;
                 margin-top: 10px;
+            }
+        }
+    }
+}
+
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+
+
+    .sermon-page {
+        text-align: center;
+        .header {
+            font-size: xx-large;
+            font-weight: 800;
+            margin-top: 100px;
+            margin-bottom: 30px;
+    
+        }
+        .caption {
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+        .services {
+            justify-content: center;
+            margin-top: 50px;        
+            .sundays {
+                margin-left: 30px;
+                margin-right: 8px;
+                margin-bottom: 50px;
+                .card-img-top {
+                    margin-top: 15px;
+                }
+                .title {
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
+            }
+            .collapse {
+                width: 100%;
+                margin-left: 60px;
+                margin-bottom: 10px;
+                .card {
+                    max-width: 100%;
+                    .card {
+                        width: 51rem;
+                        margin-bottom: 10px;
+                        height: 18rem;
+                        .card-img-top {
+                            width: 10rem;
+                            border-radius: 100%;
+                            margin-top: 5px;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                        .card-body {
+                            .audio {
+                                width: 13rem;
+                            }
+                        }
+                    }
+                }
+            }
+            .thursdays {
+                margin-left: 30px;
+                margin-right: 8px;
+                margin-bottom: 50px;
+                .card-img-top {
+                    margin-top: 15px;
+                }
+                .title {
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
+            }
+            .retreats {
+                margin-left: 30px;
+                margin-right: 8px;
+                margin-bottom: 50px;
+                .card-img-top {
+                    margin-top: 15px;
+                }
+                .title {
+                    font-weight: 500;
+                    margin-top: 10px;
+                }
             }
         }
     }

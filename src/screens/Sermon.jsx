@@ -50,9 +50,16 @@ const Sermon = () => {
 
                     {/** collapse section for thursday messages **/}
                     <div className="collapse" id="collapseExample2">
-                        <div className="card card-body">
-                            Messages comming up soon. page still in development.
+                        <div className="card card-body row container-fluid">
+                            <div className="card col-md-4">
+                                This is just for testing. Page still in development.
+                                <img className="card-img-top" src={require("../assets/images/adia.jpg")} alt="" />
+                                <div className="card-body">
+                                    Adia : Incomplete.
+                                        <audio controls className="audio" src={require("../audios/incomplete.mp3")}></audio>
+                                </div>
                             </div>
+                        </div>
                     </div>
 
                     {/** card section for retreat messages **/}
