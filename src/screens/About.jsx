@@ -27,13 +27,13 @@ const About = () => {
                 <div className="head">OUR PASTOR</div>
                 <div className="minister-info row container-fluid">
                     <div className="image col-md-4">
-                        <img className="img" src={require("../assets/images/johnny.jpg")} alt="" />
+                        <img className="img" src={require("../assets/images/pastor.jpg")} alt="" />
                     </div>
                     <div className="write-up col-md-8">
                         <h4 className="name">PST.(Dr) SAMUEL OKWULU</h4>
                         <p className="details">
                         Pst. (Dr) Samuel Okwulu has served as Senior Pastor of the fellowship for 3years.
-                        He and his wife reside in New Karu, Karu L.G.A of Nasarawa State and have 1 son.
+                        He and his wife reside in New Karu, Karu L.G.A of Nasarawa State and have 1 son.<br />
                         Pst. (Dr) Samuel Okwulu is an all round preacher who takes like his own soul, the souls of those placed
                         under his care and control.
                         He is a true man of God and has over the years been used and is still used of God mightily to bless his children.

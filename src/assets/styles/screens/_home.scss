@@ -31,25 +31,6 @@
       padding-top: 10px;
       font-weight: 500;
     }
-    .row {
-      align-items: center;
-      .search-input {
-        background-color: $white;
-        input {
-          background-color: transparent;
-          min-width: 50vw;
-          line-height: 35px;
-        }
-      }
-      .search-submit {
-        background: $primary;
-        color: $white;
-        outline: none;
-        border: 1px solid $primary;
-        margin-left: 5px;
-        line-height: 35px;
-      }
-    }
   }
   
 }
@@ -77,6 +58,7 @@
         text-align: center;
         font-size: 2rem;
         width: 80%;
+        
       }
       .welcome-note-body {
         text-align: center;
@@ -90,27 +72,7 @@
         font-size: 14px;
         width: 80%;
         text-align: center;
-      }
-      .row {
-        align-items: center;
-        .search-input {
-          background-color: $white;
-          margin-top: 75px;
-          input {
-            background-color: transparent;
-            min-width: 50vw;
-            line-height: 35px;
-          }
-        }
-        .search-submit {
-          background: $primary;
-          color: $white;
-          outline: none;
-          border: 1px solid $primary;
-          margin-left: 5px;
-          line-height: 35px;
-          margin-top: 75px;
-        }
+        
       }
     }
   }

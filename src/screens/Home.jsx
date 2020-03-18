@@ -14,12 +14,6 @@ const Home = () => (
       </h2>
       <h4 className="welcome-note-body"> Corper's District (Karu Region) </h4>
       <p className="description">Your Spiritual Welfare .... Our Concern</p>
-      <div className="row">
-        <div className="search-input">
-          <input type="text" />
-        </div>
-        <button className="search-submit">SEARCH</button>
-      </div>
     </div>
     <About />
     <Event />
