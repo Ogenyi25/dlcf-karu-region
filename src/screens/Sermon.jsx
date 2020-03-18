@@ -24,8 +24,15 @@ const Sermon = () => {
                     </div>
                     {/** collapse section for sunday messages **/}
                     <div className="collapse" id="collapseExample1">
-                        <div className="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                        <div className="card card-body row container-fluid">
+                            <div className="card col-md-4">
+                                This is just for testing. Page still in development.
+                                <img className="card-img-top" src={require("../assets/images/adia.jpg")} alt="" />
+                                <div className="card-body">
+                                    Adia : Incomplete.
+                                        <audio controls className="audio" src={require("../audios/incomplete.mp3")}></audio>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -44,8 +51,8 @@ const Sermon = () => {
                     {/** collapse section for thursday messages **/}
                     <div className="collapse" id="collapseExample2">
                         <div className="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                        </div>
+                            Messages comming up soon. page still in development.
+                            </div>
                     </div>
 
                     {/** card section for retreat messages **/}
@@ -62,7 +69,7 @@ const Sermon = () => {
                     {/** collapse section for retreat messages **/}
                     <div className="collapse" id="collapseExample3">
                         <div className="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            Messages comming up soon. page still in development.
                         </div>
                     </div>
                 </div>

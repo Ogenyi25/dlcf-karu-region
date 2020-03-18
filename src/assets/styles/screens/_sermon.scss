@@ -30,7 +30,22 @@
         .collapse {
             margin-left: 30px;
             .card {
-
+                .card {
+                    width: 50rem;
+                    margin-bottom: 10px;
+                    .card-img-top {
+                        width: 10rem;
+                        border-radius: 100%;
+                        margin-top: 5px;
+                        margin-left: auto;
+                        margin-right: auto;
+                    }
+                    .card-body {
+                        .audio {
+                            width: 13rem;
+                        }
+                    }
+                }
             }
         }
         .thursdays {
