@@ -11,8 +11,7 @@
             height: 50px;
             border-radius: 100%;
             margin-right: 10px;
-          }
-          
+        }  
           @keyframes rotation {
             from {
               transform: rotate(0deg);
@@ -20,8 +19,18 @@
             to {
               transform: rotate(359deg);
             }
-        }
-        
+          }  
+    }
+    .system {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+    .phone {
+      text-align: center;
+      margin-top: 20px;
+      font-weight: 500;
+      visibility: hidden;
     }
     .locations {
         margin-top: 100px;
@@ -359,6 +368,19 @@
                   transform: rotate(359deg);
                 }
             }            
+        }
+        .system {
+          text-align: center;
+          margin-top: 20px;
+          font-weight: 500;
+          visibility: hidden;
+        }
+        .phone {
+          text-align: center;
+          margin-top: 20px;
+          font-weight: 500;
+          visibility: visible;
+          line-height: 24px;
         }
         .locations {
             margin-top: 50px;

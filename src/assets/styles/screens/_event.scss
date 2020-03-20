@@ -6,9 +6,22 @@
             text-align: center;
             font-size: 40px;
             font-weight: bold;
+            .system {
+                text-align: center;
+                margin-top: 20px;
+                font-weight: 500;
+                visibility: visible;
+              }
+              .phone {
+                text-align: center;
+                margin-top: 20px;
+                font-weight: 500;
+                visibility: hidden;
+              }       
         }
         @import url('https://fonts.googleapis.com/css?family=Exo:700');
         @import url('https://fonts.googleapis.com/css?family=Abel');
+        
         body {
         background-color: #dfe6e9;
         -webkit-transform: perspective(900px);
@@ -195,7 +208,6 @@
         font-size:18px;
         font-family: 'Exo', sans-serif;  
         }
-                
     }
 }
 
@@ -209,6 +221,19 @@
                 margin-left: 18px;
                 font-size: 30px;
                 font-weight: bold;
+                .system {
+                    text-align: center;
+                    margin-top: 20px;
+                    font-weight: 500;
+                    visibility: hidden;
+                  }
+                  .phone {
+                    text-align: center;
+                    margin-top: 20px;
+                    font-weight: 500;
+                    visibility: visible;
+                    line-height: 24px;
+                  }
             }
             @import url('https://fonts.googleapis.com/css?family=Exo:700');
             @import url('https://fonts.googleapis.com/css?family=Abel');
@@ -354,5 +379,6 @@
             }
                     
         }
+        
     }
 }
