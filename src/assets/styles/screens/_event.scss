@@ -1,5 +1,5 @@
 .events-page {
-    margin-bottom: 300px;
+    margin-bottom: 100px;
     .events {
         text-align: center;
         .title {
@@ -21,7 +21,7 @@
         }
         @import url('https://fonts.googleapis.com/css?family=Exo:700');
         @import url('https://fonts.googleapis.com/css?family=Abel');
-        
+
         body {
         background-color: #dfe6e9;
         -webkit-transform: perspective(900px);
@@ -215,7 +215,7 @@
 @media only screen and (max-width: 768px) {
 
     .events-page {
-        margin-bottom: 300px;
+        margin-bottom: 100px;
         .events {
             .title {
                 margin-left: 18px;
@@ -223,16 +223,17 @@
                 font-weight: bold;
                 .system {
                     text-align: center;
-                    margin-top: 20px;
+                    margin-top: 5px;
                     font-weight: 500;
                     visibility: hidden;
                   }
                   .phone {
                     text-align: center;
-                    margin-top: 20px;
+                    margin-top: 5px;
                     font-weight: 500;
                     visibility: visible;
                     line-height: 24px;
+                    font-size: small;
                   }
             }
             @import url('https://fonts.googleapis.com/css?family=Exo:700');

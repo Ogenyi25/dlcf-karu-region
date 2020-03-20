@@ -9,7 +9,7 @@ const Location = () => {
                 Other DLCF Locations
             </div>
             <h6 className="system">Hover on card to see more details</h6>
-            <h6 className="phone">Click on each card to see more details.
+            <h6 className="phone">Click on each card to see more details.<br />
             Click outside the card to return it to default</h6>
             <div className="locations row container-fluid">
                 <div className="corpers col-md-4">
