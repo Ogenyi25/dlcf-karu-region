@@ -26,29 +26,12 @@
                 font-weight: 500;
                 margin-top: 10px;
             }
-        }
-        .collapse {
-            width: 100%;
-            margin-left: 50px;
-            margin-bottom: 10px;
-            .card {
-                .card {
-                    width: 18rem;
-                    margin-bottom: 10px;
-                    height: 18rem;
-                    .card-img-top {
-                        width: 10rem;
-                        border-radius: 100%;
-                        margin-top: 5px;
-                        margin-left: auto;
-                        margin-right: auto;
-                    }
-                    .card-body {
-                        .audio {
-                            width: 13rem;
-                        }
-                    }
-                }
+            .btn {
+                background-color: $primary;
+                height: max-content;
+            }
+            .btn:hover {
+                background-color: $white;
             }
         }
         .thursdays {
@@ -62,6 +45,13 @@
                 font-weight: 500;
                 margin-top: 10px;
             }
+            .btn {
+                background-color: $primary;
+                height: max-content;
+            }
+            .btn:hover {
+                background-color: $white;
+            }
         }
         .retreats {
             margin-left: 30px;
@@ -73,6 +63,13 @@
             .title {
                 font-weight: 500;
                 margin-top: 10px;
+            }
+            .btn {
+                background-color: $primary;
+                height: max-content;
+            }
+            .btn:hover {
+                background-color: $white;
             }
         }
     }
@@ -113,31 +110,7 @@
                     margin-top: 10px;
                 }
             }
-            .collapse {
-                width: 100%;
-                margin-left: 60px;
-                margin-bottom: 10px;
-                .card {
-                    max-width: 100%;
-                    .card {
-                        width: 51rem;
-                        margin-bottom: 10px;
-                        height: 18rem;
-                        .card-img-top {
-                            width: 10rem;
-                            border-radius: 100%;
-                            margin-top: 5px;
-                            margin-left: auto;
-                            margin-right: auto;
-                        }
-                        .card-body {
-                            .audio {
-                                width: 13rem;
-                            }
-                        }
-                    }
-                }
-            }
+            
             .thursdays {
                 margin-left: 30px;
                 margin-right: 8px;

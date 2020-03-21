@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -29,15 +30,12 @@ const Navbar = () => {
       </div>
       <div className="float-right col-md-9 container-fluid">
         <nav className="nav">
-          <a className="nav-link" href="#about">About</a>
-          <a className="nav-link" href="#sermon">Sermons</a>
-          <a className="nav-link" href="#event">Events</a>
-          <a className="nav-link" href="#location">Locations</a>
-          <a className="nav-link" href="#contact">Contact</a>
+          <Link to='/sermon'className="nav-link" >Sermons</Link>
+          <Link to='/event'className="nav-link" >Events</Link>
+          <Link to='/location'className="nav-link" >Locations</Link>
+          <Link to='/contact'className="nav-link" >Contact</Link>
         </nav>
         <span className="call ">Help Center:  0803 451 8124; 0805 851 9150</span>
-
-
       </div>
     </div>
   );

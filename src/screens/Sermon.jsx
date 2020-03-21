@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Sermon = () => {
     return (
         <div>
@@ -10,73 +10,31 @@ const Sermon = () => {
                      than any two edged sword.
                 </div>
                 <div className="services row container-fluid">
-
                     {/** card section for sunday messages **/}
                     <div className="sundays col-md-3 card">
                         <img className="card-img-top" src={require("../assets/images/sunday.jpg")} alt="" />
                         <div className="card-body">
                             <h5 className="title">SUNDAY MESSAGES</h5>
                             <p className="card-text">Devotional sunday worship service.</p>
-                            <button className="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                                See Messages
-                            </button>
+                            <Link to= '/sunday'><button className="btn" type="button">See Messages</button></Link>
                         </div>
                     </div>
-                    {/** collapse section for sunday messages **/}
-                    <div className="collapse" id="collapseExample1">
-                        <div className="card card-body row container-fluid">
-                            <div className="card col-md-4">
-                                This is just for testing. Page still in development.
-                                <img className="card-img-top" src={require("../assets/images/adia.jpg")} alt="" />
-                                <div className="card-body">
-                                    Adia : Incomplete.
-                                        <audio controls className="audio" src={require("../audios/incomplete.mp3")}></audio>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     {/** card section for thursday messages **/}
                     <div className="thursdays col-md-3 card">
                         <img className="card-img-top" src={require("../assets/images/thursday.jpg")} alt="" />
                         <div className="card-body">
                             <h5 className="title">THURSDAY MESSAGES</h5>
                             <p className="card-text">Revival Evangelical Service and Special Teachings.</p>
-                            <button className="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                                See Messages
-                            </button>
+                            <Link to= '/thursday'><button className="btn" type="button">See Messages</button></Link>
                         </div>
                     </div>
-
-                    {/** collapse section for thursday messages **/}
-                    <div className="collapse" id="collapseExample2">
-                        <div className="card card-body row container-fluid">
-                            <div className="card col-md-4">
-                                This is just for testing. Page still in development.
-                                <img className="card-img-top" src={require("../assets/images/adia.jpg")} alt="" />
-                                <div className="card-body">
-                                    Adia : Incomplete.
-                                        <audio controls className="audio" src={require("../audios/incomplete.mp3")}></audio>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                     {/** card section for retreat messages **/}
                     <div className="retreats col-md-3 card">
                         <img className="card-img-top" src={require("../assets/images/logo.png")} alt="" />
                         <div className="card-body">
                             <h5 className="title">RETREAT MESSAGES</h5>
                             <p className="card-text">Special Messages with healing, miracle and testimony.</p>
-                            <button className="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-                                See Messages
-                            </button>
-                        </div>
-                    </div>
-                    {/** collapse section for retreat messages **/}
-                    <div className="collapse" id="collapseExample3">
-                        <div className="card card-body">
-                            Messages comming up soon. page still in development.
+                            <Link to= '/sunday'><button className="btn" type="button">See Messages</button></Link>
                         </div>
                     </div>
                 </div>

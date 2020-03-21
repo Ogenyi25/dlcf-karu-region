@@ -1,9 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Location from "../screens/Location";
-import About from "./About";
-import Event from "../screens/Event";
-import Sermon from "../screens/Sermon";
+import About from "../screens/About";
 
 const Home = () => (
   <div className="home">
@@ -12,13 +9,11 @@ const Home = () => (
       <h2 className="welcome-note-header">
         DEEPER LIFE CAMPUS FELLOWSHIP
       </h2>
+      <div className="overlay"></div>
       <h4 className="welcome-note-body"> Corper's District (Karu Region) </h4>
       <p className="description">Your Spiritual Welfare .... Our Concern</p>
     </div>
     <About />
-    <Event />
-    <Location />
-    <Sermon />
   </div>
 );
 
