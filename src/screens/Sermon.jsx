@@ -34,7 +34,7 @@ const Sermon = () => {
                         <div className="card-body">
                             <h5 className="title">RETREAT MESSAGES</h5>
                             <p className="card-text">Special Messages with healing, miracle and testimony.</p>
-                            <Link to= '/sunday'><button className="btn" type="button">See Messages</button></Link>
+                            <Link to= '/retreat'><button className="btn" type="button">See Messages</button></Link>
                         </div>
                     </div>
                 </div>

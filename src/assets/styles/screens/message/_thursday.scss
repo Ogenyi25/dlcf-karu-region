@@ -1,0 +1,90 @@
+.thursday {
+    background-color: rgb(226, 226, 226);
+    .start {
+        font-weight: 600;
+        padding-top: 50px;
+        text-align: center;
+        font-family: arial;
+        margin-bottom: 40px;
+    }
+    .house {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        .sect {
+            .lead {
+                font-weight: 400;
+                font-size: small;
+                margin-top: 10px;
+            } 
+            margin-bottom: 20px;
+            height: 21rem;
+            margin-left: auto; 
+            margin-right: auto;
+            background-color: $white;
+            border-radius: 10px;
+            .card-img-top {
+            width: 10rem;
+            border-radius: 100%;
+            margin-top: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            }
+            .card-body {
+                .audio {
+                    width: 10rem;
+                }
+            }
+        }
+    }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+
+    .thursday {
+        background-color: rgb(226, 226, 226);
+        .start {
+            font-weight: 600;
+            padding-top: 50px;
+            text-align: center;
+            font-family: arial;
+            margin-bottom: 40px;
+        }
+        .house {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            .sect {
+                .lead {
+                    font-weight: 400;
+                    font-size: small;
+                    margin-top: 10px;
+                } 
+                margin-bottom: 20px;
+                height: 21rem;
+                margin-left: auto; 
+                margin-right: auto;
+                background-color: $white;
+                border-radius: 10px;
+                .card-img-top {
+                width: 10rem;
+                border-radius: 100%;
+                margin-top: 5px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                }
+                .card-body {
+                    text-align: center;
+                    .audio {
+                        width: 14rem;
+                    }
+                }
+            }
+        }
+    }
+}

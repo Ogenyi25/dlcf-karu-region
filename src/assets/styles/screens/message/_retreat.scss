@@ -1,0 +1,15 @@
+.retreat {
+    text-align: center;
+    font-size: x-large;
+    padding-top: 50px;
+}
+
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+    .retreat {
+        text-align: center;
+        font-size: large;
+        padding-top: 50px;
+    }    
+}
