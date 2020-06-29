@@ -1,7 +1,10 @@
 import React from 'react';
+import Navbar from '../../components/Navbar';
 
 const Sunday = () => {
     return (
+        <div>
+            <Navbar />
         <div className="sunday">
             <h3 className="start">SUNDAY WORSHIP SERVICE MESSAGE</h3>
             <div className="house row container-fluid">
@@ -50,6 +53,7 @@ const Sunday = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

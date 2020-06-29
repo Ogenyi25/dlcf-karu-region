@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Navbar from "../components/Navbar";
 const Sermon = () => {
     return (
         <div>
+            <Navbar />
             <div className="sermon-page" id="sermon">
                 <div className="header">SERMONS</div>
                 <div className="caption">
@@ -11,7 +13,7 @@ const Sermon = () => {
                 </div>
                 <div className="services row container-fluid">
                     {/** card section for sunday messages **/}
-                    <div className="sundays col-md-3 card">
+                    <div className="sundays col-md-3">
                         <img className="card-img-top" src={require("../assets/images/sunday.jpg")} alt="" />
                         <div className="card-body">
                             <h5 className="title">SUNDAY MESSAGES</h5>
@@ -20,7 +22,7 @@ const Sermon = () => {
                         </div>
                     </div>
                     {/** card section for thursday messages **/}
-                    <div className="thursdays col-md-3 card">
+                    <div className="thursdays col-md-3">
                         <img className="card-img-top" src={require("../assets/images/thursday.jpg")} alt="" />
                         <div className="card-body">
                             <h5 className="title">THURSDAY MESSAGES</h5>
@@ -29,7 +31,7 @@ const Sermon = () => {
                         </div>
                     </div>
                     {/** card section for retreat messages **/}
-                    <div className="retreats col-md-3 card">
+                    <div className="retreats col-md-3">
                         <img className="card-img-top" src={require("../assets/images/logo.png")} alt="" />
                         <div className="card-body">
                             <h5 className="title">RETREAT MESSAGES</h5>
