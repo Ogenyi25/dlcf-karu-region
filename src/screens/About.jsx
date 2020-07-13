@@ -10,13 +10,13 @@ const About = () => {
             </div>
             <div className="sect2">OUR FELLOWSHIP DNA CONSISTS OF FOUR CORE VALUES. </div>
             <h4 className="value">love</h4>
-            <div className="body">WE LOVE GOD WITH ALL WE ARE AND STRIVE TO DO HIS WILL DAILY</div>
+            <div className="body">We love God with all we are and strive to do his will daily.</div>
             <h4 className="value">spiritual growth</h4>
-            <div className="body">WE STRIVE TO CONTINUALLY GROW IN FAITH AND IN THE WORD OF GOD</div>
+            <div className="body">We strive to continually grow in faith and in the word of God.</div>
             <h4 className="value">service</h4>
-            <div className="body">WE COMMIT TO DISPLAYING GOD'S LOVE THROUGH SERVING OTHERS.</div>
+            <div className="body">We commit to displaying God's love through serving others.</div>
             <h4 className="value">evangelism</h4>
-            <div className="body">STANDING STILL IS NOT AN OPTION; WE MUST GO AND MAKE A DIFFERENCE.</div>
+            <div className="body">Standing still is not an option; <strong>we must go and make a difference</strong>.</div>
             <hr className="line" />
 
             <div className="minister">

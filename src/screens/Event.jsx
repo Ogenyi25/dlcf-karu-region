@@ -1,10 +1,15 @@
 import React from 'react';
-import Navbar from "../components/Navbar";
+import { Link } from 'react-router-dom';
 
 const Event = () => {
     return (
-        <div>
-            <Navbar/>
+        <div className="event-home">
+            <ol className="breadcrumb">
+				<li>
+					<Link to='/about'><em className="fa fa-home"></em></Link>
+				</li>
+				<li className="active">Events Page</li>
+			</ol>
             <div className="events-page" id="event">
                 <div className="events container-fluid row">
                     <div className="title">UPCOMING EVENTS
