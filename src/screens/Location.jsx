@@ -1,9 +1,16 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 
 const Location = () => {
     return (
         <div className="location-page" id="location">
+            <ol className="breadcrumb">
+				<li>
+					<Link to='/about'><em className="fa fa-home"></em></Link>
+				</li>
+				<li className="active">Location</li>
+			</ol>
             <div className="title">
                 <img className="rotate" src={require("../assets/images/logo.png")} alt="" />
                 Other DLCF Locations

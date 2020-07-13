@@ -1,10 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from "../components/Navbar";
+
+
 const Sermon = () => {
     return (
-        <div>
-            <Navbar />
+        <div className="sermon-home">
+            <ol className="breadcrumb">
+				<li>
+					<Link to='/about'><em className="fa fa-home"></em></Link>
+				</li>
+				<li className="active">Sermon</li>
+			</ol>
             <div className="sermon-page" id="sermon">
                 <div className="header">SERMONS</div>
                 <div className="caption">
