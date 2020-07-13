@@ -1,6 +1,10 @@
 .location-page {
-    margin-top: 10px;
-    margin-bottom: 50px;
+  .breadcrumb {
+    padding-left: 10px;
+    .active {
+        margin-left: 10px;
+    }
+  }
     .title {
         text-align: center;
         font-size: xx-large;

@@ -1,173 +1,75 @@
-.events-page {
-    margin-bottom: 100px;
-    .events {
-        text-align: center;
-        .title {
+.event-home {
+    .breadcrumb {
+        padding-left: 10px;
+        .active {
+            margin-left: 10px;
+        }
+    }
+    
+    .events-page {
+        margin-bottom: 100px;
+        .events {
             text-align: center;
-            font-size: 40px;
-            font-weight: bold;
-            .system {
+            .title {
                 text-align: center;
-                margin-top: 20px;
-                font-weight: 500;
-                visibility: visible;
-              }
-              .phone {
-                text-align: center;
-                margin-top: 20px;
-                font-weight: 500;
-                visibility: hidden;
-              }       
-        }
-        @import url('https://fonts.googleapis.com/css?family=Exo:700');
-        @import url('https://fonts.googleapis.com/css?family=Abel');
-
-        body {
-        background-color: #dfe6e9;
-        -webkit-transform: perspective(900px);
-        -webkit-transform-style: preserve-3d;
-        }
-        .title{
-        width:100%;
-        text-align: center;
-        }
-        .title h1{
-        font-size:50px;
-        font-family: 'Exo', sans-serif;
-        }
-        .card1 {
-        text-align:center;
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
-        width: 150px;
-        height: 350px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        background: linear-gradient(rgb(225,150,58),rgb(227,144,91));
-        transition:.6s;
-        transform: rotatex(75deg) translatey(-200px) translatez(-100px);
-        box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
-        }
-        .card1:hover{
-        transform: rotatex(0deg);
-        transform: rotatez(0deg);
-        transition:.6s;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-        text-align: center;
-        }
-        .card1 img{
-        transform: translateY(15px);
-        width:200px;
-        height:120px;
-        }
-        h3{
-        font-size:25px;
-        font-family: 'Abel', sans-serif;
-        color:rgb(255,255,255);
-        text-shadow: 0 0 2px rgb(255,255,255);
-        transform: translatey(10px);
-        margin-bottom: 20px;
-        text-align: center;
-        justify-items: center;
-        }
-        p{
-        font-family: 'Abel', sans-serif;
-        color: white;
-        text-align:center;
-            .time {
-                margin-top: 30px;
-                font-weight: 700;
-                margin-right: 20px;
-                .fa {
-                    margin-left: 5px;
-                    margin-right: 10px;  
-                }
-                span .fa {
-                    margin-left: 10px;
-                    margin-right: 20px;
-                }
+                font-size: 40px;
+                font-weight: bold;
+                .system {
+                    text-align: center;
+                    margin-top: 20px;
+                    font-weight: 500;
+                    visibility: visible;
+                  }
+                  .phone {
+                    text-align: center;
+                    margin-top: 20px;
+                    font-weight: 500;
+                    visibility: hidden;
+                  }       
             }
-        }
-        .card2 {
-        text-align:center;
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
-        width: 250px;
-        height: 350px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        background: linear-gradient(rgb(93,94,170),rgb(93,66,103));
-        animation: animate 1s linear infinite;
-        transition:.6s;
-        
-        transform: rotatex(75deg) translatey(-200px) translatez(-100px);
-        box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
-        }
-        .card2:hover{
-        transform: rotatex(0deg);
-        transition:.6s;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-        }
-        .card2 img{
-        transform: translateY(15px);
-        width:180px;
-        height:150px;
-        }
-        h3 {
-        font-size:25px;
-        font-family: 'Abel', sans-serif;
-        color:rgb(255,255,255);
-        text-shadow: 0 0 2px rgb(255,255,255);
-        transform: translatey(10px);
-        margin-bottom: 20px;
-        text-align: center;
-        justify-items: center;
-        }
-        p{
-        font-family: 'Abel', sans-serif;
-        color: white;
-        text-align:center;
-            .time {
-                margin-top: 30px;
-                font-weight: 700;
-                .fa {
-                    margin-left: 5px;
-                    margin-right: 10px;  
-                }
-                span .fa {
-                    margin-left: 10px;
-                    margin-right: 10px;
-                }
+            @import url('https://fonts.googleapis.com/css?family=Exo:700');
+            @import url('https://fonts.googleapis.com/css?family=Abel');
+    
+            body {
+            background-color: #dfe6e9;
+            -webkit-transform: perspective(900px);
+            -webkit-transform-style: preserve-3d;
             }
-        }
-        .card3 {
-        text-align:center;
-        margin-right: auto;
-        margin-left: auto;
-        display: block;
-        width: 250px;
-        height: 350px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        background: linear-gradient(#ff5252, #b33939);
-        transition:.6s;
-        
-        transform: rotatex(75deg) translatey(-200px) translatez(-100px);
-        box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
-        }
-        .card3:hover{
-        transform: rotatex(0deg);
-        transition:.6s;
-        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
-        }
-        .card3 img{
-        transform: translateY(15px);
-        width:200px;
-        height:120px;
-        }
-        h3{
+            .title{
+            width:100%;
+            text-align: center;
+            }
+            .title h1{
+            font-size:50px;
+            font-family: 'Exo', sans-serif;
+            }
+            .card1 {
+            text-align:center;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            width: 150px;
+            height: 350px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background: linear-gradient(rgb(225,150,58),rgb(227,144,91));
+            transition:.6s;
+            transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+            box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
+            }
+            .card1:hover{
+            transform: rotatex(0deg);
+            transform: rotatez(0deg);
+            transition:.6s;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            }
+            .card1 img{
+            transform: translateY(15px);
+            width:200px;
+            height:120px;
+            }
+            h3{
             font-size:25px;
             font-family: 'Abel', sans-serif;
             color:rgb(255,255,255);
@@ -184,29 +86,136 @@
                 .time {
                     margin-top: 30px;
                     font-weight: 700;
-                    color: $white;
+                    margin-right: 20px;
                     .fa {
                         margin-left: 5px;
-                        margin-right: 10px;
-                        color: $white;  
+                        margin-right: 10px;  
+                    }
+                    span .fa {
+                        margin-left: 10px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+            .card2 {
+            text-align:center;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            width: 250px;
+            height: 350px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background: linear-gradient(rgb(93,94,170),rgb(93,66,103));
+            animation: animate 1s linear infinite;
+            transition:.6s;
+            
+            transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+            box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+            }
+            .card2:hover{
+            transform: rotatex(0deg);
+            transition:.6s;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            }
+            .card2 img{
+            transform: translateY(15px);
+            width:180px;
+            height:150px;
+            }
+            h3 {
+            font-size:25px;
+            font-family: 'Abel', sans-serif;
+            color:rgb(255,255,255);
+            text-shadow: 0 0 2px rgb(255,255,255);
+            transform: translatey(10px);
+            margin-bottom: 20px;
+            text-align: center;
+            justify-items: center;
+            }
+            p{
+            font-family: 'Abel', sans-serif;
+            color: white;
+            text-align:center;
+                .time {
+                    margin-top: 30px;
+                    font-weight: 700;
+                    .fa {
+                        margin-left: 5px;
+                        margin-right: 10px;  
                     }
                     span .fa {
                         margin-left: 10px;
                         margin-right: 10px;
-                        color: $white;
                     }
                 }
             }
-        .footer{
-        position: absolute;
-        top: 500px;
-        marging: 10px;
-        width: 100%;
-        text-align: center;
-        }
-        .footer h2{
-        font-size:18px;
-        font-family: 'Exo', sans-serif;  
+            .card3 {
+            text-align:center;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            width: 250px;
+            height: 350px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background: linear-gradient(#ff5252, #b33939);
+            transition:.6s;
+            
+            transform: rotatex(75deg) translatey(-200px) translatez(-100px);
+            box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.5);
+            }
+            .card3:hover{
+            transform: rotatex(0deg);
+            transition:.6s;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+            }
+            .card3 img{
+            transform: translateY(15px);
+            width:200px;
+            height:120px;
+            }
+            h3{
+                font-size:25px;
+                font-family: 'Abel', sans-serif;
+                color:rgb(255,255,255);
+                text-shadow: 0 0 2px rgb(255,255,255);
+                transform: translatey(10px);
+                margin-bottom: 20px;
+                text-align: center;
+                justify-items: center;
+                }
+                p{
+                font-family: 'Abel', sans-serif;
+                color: white;
+                text-align:center;
+                    .time {
+                        margin-top: 30px;
+                        font-weight: 700;
+                        color: $white;
+                        .fa {
+                            margin-left: 5px;
+                            margin-right: 10px;
+                            color: $white;  
+                        }
+                        span .fa {
+                            margin-left: 10px;
+                            margin-right: 10px;
+                            color: $white;
+                        }
+                    }
+                }
+            .footer{
+                position: absolute;
+                top: 500px;
+                marging: 10px;
+                width: 100%;
+                text-align: center;
+            }
+            .footer h2{
+                font-size:18px;
+                font-family: 'Exo', sans-serif;  
+            }
         }
     }
 }
